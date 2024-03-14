@@ -1,0 +1,361 @@
+
+header{
+    border: 2px solid rgb(90, 87, 87);
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#socials{
+    width: 200PX;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.haut2 {
+    border: 2px solid rgb(253, 255, 253);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.haut2 img {
+    width: 75px;
+    height: 75px;
+}
+
+.haut3 {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 430px;
+}
+
+.haut3:hover {
+    background-color: white;
+    border: 2px solid rgb(255, 250, 250);
+}
+
+.haut3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.haut3 ul li {
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: center;
+
+}
+
+.haut3 ul li a{
+    color: rgb(2, 2, 2);
+    display: flex;
+    text-align: center;
+}
+
+.haut3 ul li a:hover {
+    color: rgb(33, 12, 219);
+    font-size: 20px;
+}
+.banner1 {
+    width: 1300px;
+    height: 90%;
+    left: 10px;
+    margin: 30px;
+    margin-left: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.banner1 img {
+    width: 100%;
+    height: 220px;
+    justify-content: space-around;
+}
+
+.banner2 {
+    width: 1200px;
+    height: 60%;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.raa{
+    border: 2px solid grey;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.tiewa{
+    border: 2px solid rgb(90, 87, 87);
+    width: 850px;
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    justify-content: flex-end;
+   
+}
+.alice{
+    border: 2px solid rgb(145, 151, 145);
+    margin: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40x;
+    height: 60px;
+    background-color: rgb(206, 203, 200);
+    
+
+}
+
+.tbfa{
+    width: 700px;
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    justify-content: flex-end;
+}
+.tbfa label{
+
+    margin: 30px;
+}
+
+.momo{
+    width: 700px;
+    display: flex;
+    justify-content:space-around ;
+    margin: 10px;
+    padding-left: 0px;
+
+}
+.momo1, .momo2{
+    display: block;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 20px;
+    top: 1000px;
+    margin-top: 100px;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.Copyright1{
+    border: 2px solid rgb(131, 126, 126);
+    width: 1348px;
+    height: 150px;
+    margin-right: 0px;
+    top: 1000px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.bas1 {
+    border: 2px solid rgb(131, 126, 126);
+    width: 1348px;
+    height: 160px;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cat{
+    top: 20px;
+    right: 750px;
+}
+.cat ul a li{
+    color: black;
+}
+
+.menu{
+    top: 13px;
+    right: 350px;
+}
+.menu ul li a{
+    color: black;
+}
+
+.section img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 40;
+}
+.champ1{
+    width: 700px;
+    height: 30px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.champ2{
+    width: 345px;
+    height: 10px;
+    margin: 10px;
+    padding: 20px;
+    
+
+}
+.champ3{
+    width: 335px;
+    height: 10px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.champ4,
+.champ5 {
+    width: 700px;
+    height: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+.champ6{
+    width: 700px;
+    height: 40px;
+    margin: 10px;
+}
+.select{
+    padding: 3px;
+    position: absolute;
+    background-color:rgb(184, 181, 178) ;
+    border-radius: 5px;
+    top: 905px;
+    right: 875px
+}
+
+.save{
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    background-color: rgb(51, 179, 115);
+    border: 0cap;
+    color: rgb(255, 255, 255);
+    width : 200px;
+    height: 50px;
+    margin-bottom: 10;
+}
+.send{
+    padding: 10px;
+    position: absolute;
+    top: 980px;
+    right: 330px;
+    background-color: rgb(51, 179, 115);
+    border: 0cap;
+    color: rgb(255, 255, 255);
+    width : 200px;
+    height: 50px;
+}
+.grand_bloc {
+    border: solid gray 1px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    }
+     
+    .icons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 170px;
+    }
+    
+    .icons a i{
+    border: solid 5px;
+    border-radius: 40px;
+    }
+    
+    .bloc-image{
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    
+    #burger{
+    border: solid gray 1px;
+    border-radius: 9px; 
+    text-align: justify;
+    }
+    
+    #burger img{
+    width: 300px;
+    }
+    
+    
+    #cisse1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #poulet{
+    border: solid gray 1px;
+    border-radius: 9px; 
+    text-align: justify;
+    }
+    
+    #poulet img{
+    width: 300px;
+    }
+    
+    #salade{
+    border: solid gray 1px;
+    border-radius: 9px; 
+    text-align: justify;
+    }
+    
+    #salade img{
+    width: 300px;
+    }
+    
+    #desc_1{
+        border: solid 1px gray;
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+    
+    #desc_1 img {
+    width: 300px;
+    margin-right: 20px;
+    }
+    
+    .text{
+    border: solid gray 1px;
+    width: 750px;
+    margin: 20px 20px 20px 0px;
+    text-align: justify;
+    padding: 15px;
+    }
